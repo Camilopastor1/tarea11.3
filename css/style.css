@@ -1,0 +1,27 @@
+main {
+  min-height: calc(100vh - 160px);
+}
+
+.imagen-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr)); 
+  gap: 20px; 
+}
+
+.imagen-item {
+  border: 1px solid #9c9c9c;
+  padding: 10px;
+  text-align: center;
+
+  -webkit-box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.19);
+  -moz-box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.19);
+  box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.19);
+}
+
+.imagen-item img {
+  float: center;
+  width:  350px;
+  height: 250px;
+  object-fit: cover;
+padding-bottom: 15px;
+}
